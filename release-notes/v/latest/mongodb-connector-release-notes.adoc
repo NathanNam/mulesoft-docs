@@ -9,13 +9,14 @@ Mule ESB supports MongoDB integration by using http://mongodb.github.io/mongo-ja
 
 Release notes for MongoDB connector v4.2.0.
 
-This is a minor release which includes two new features and one bug fix.
+This is a minor release which includes three new features and one bug fix.
 
 
 === New Features
 
-* New operation *Insert Documents* added; this supports multiple inserts and batch integration.
-* Connection String Authentication - connector now supports standard MongoDB connection URI format used to connect to a MongoDB database server.
+* Adds the new operation *Insert Documents*; this supports multiple inserts and batch integration.
+* Supports Connection String Authentication - connector now supports standard MongoDB connection URI format used to connect to a MongoDB database server.
+* Supports a differnt database to be used for authentication.
 
 === Fixed in this Release
 
