@@ -9,6 +9,29 @@ The Amazon SQS cloud connector provides an easy way to interface with the Amazon
 [IMPORTANT]
 Starting with v.4.0.0, the SQS Connector is licensed commercially with Anypoint Platform as with other Select connectors.  Prior versions will remain freely available to the community.
 
+== Version 4.1.0 - September 30, 2016
+
+=== Version 4.1.0 Compatibility
+
+[%header,cols="2*a"]
+|===
+|Application/Service|Version
+|Mule Runtime|3.8.x or later
+|AWS SDK for Java|1.11.21
+|===
+
+=== Version 4.1.0 Features
+* Upgraded Anypoint Devkit to v3.9.0
+* Upgraded AWS SDK to v1.11.21
+* Support for Temporary Credentials - A checkbox named "Try Default AWS Credentials Provider Chain" has been added to the Global Element configuration. If selected, the connector will first try to obtain the credentials from a AWS environment.
+* Support for Retry Policy - The connector will perform a maximum of 10 retries when a request fails due to server-side throttling or dropped connection.
+
+=== Version 4.1.0 Fixed in this Release
+None.
+
+=== Version 4.1.0 Known Issues
+None.
+
 == Version 4.0.2 - May 5, 2016
 
 === Version 4.0.2 Compatibility
@@ -21,16 +44,13 @@ Starting with v.4.0.0, the SQS Connector is licensed commercially with Anypoint 
 |===
 
 === Version 4.0.2 Features
-
 None.
 
 === Version 4.0.2 Fixed in this Release
-
 SE-3373 - Fixed issue with consumption of messages from queue for cases when client receives an exception.
 
 === Version 4.0.2 Known Issues
 None.
-
 
 == Version 4.0.0 - Dec 15, 2015
 
@@ -76,7 +96,6 @@ None.
 
 
 == Version 3.1.1
-
 * Upgraded to Devkit v3.7.0
 * The Test Connection feature in the Global Configuration settings has been modified to test queue level action rather
 than the generic system wide Amazon SQS action.
