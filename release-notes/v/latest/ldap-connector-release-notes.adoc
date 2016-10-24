@@ -5,6 +5,35 @@ Lightweight Directory Access Protocol (LDAP) is an Internet protocol used to acc
 
 *Guide*: link:/mule-user-guide/v/3.8/ldap-connector[LDAP Connector]
 
+== Version 2.1.0 - October 13, 2016
+
+Release notes for version 2.1.0 of the LDAP connector.
+
+=== Version 2.1.0 Compatibility
+
+The LDAP Connector is compatible with:
+
+|===
+|Application/Serice|Version
+|Mule Runtime|3.8.0 or higher
+|Java|1.8.0_91 or higher
+|Anypoint Studio|6.0.3 or higher
+|===
+
+=== Version 2.1.0 Features
+
+* Bind Operation now accepts authDN, authPassword and authentication.
+
+=== Version 2.1.0 Fixed in this Release
+
+* Fixed TLS connection to use the correct context on which TLS is initialized, now TLS can be used to set password for Active Directory.
+* LDAP Entry allows DN to be obtained by getting attribute dn. Get call on LDAPEntry for DN returns the distinguished name.
+* LDAP Entry allows having null attribute value. Get call on LDAPEntry for a null valued attribute returns null instead of throwing a null pointer exception.
+
+=== Version 2.1.0 Known Issues
+
+None.
+
 == Version 2.0.1 - April 8, 2016
 
 Release notes for version 2.0.1 of the LDAP connector.
