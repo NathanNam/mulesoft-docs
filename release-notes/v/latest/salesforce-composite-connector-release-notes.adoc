@@ -2,7 +2,7 @@
 :keywords: release notes, salesforce, composite, connector
 
 
-The Anypoint(TM) Connector for Salesforce Composite provides you a way to integrate with Salesforce Composite API link:https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_composite.htm[Salesforce Composite API]. The connector exposes convenient methods for preparing sub-requests, execute them in one batch and parse the results. It provides DataSense on both preparation of sub-requests and parsing response of their execution.
+The Anypoint(TM) Connector for Salesforce Composite provides you a way to integrate with link:https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_composite.htm[Salesforce Composite API]. The connector exposes convenient methods for preparing sub-requests, execute them in one batch and parse the results. It provides DataSense on both preparation of sub-requests and parsing response of their execution.
 
 == Contents
 
