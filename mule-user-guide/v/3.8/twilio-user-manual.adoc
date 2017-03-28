@@ -182,7 +182,7 @@ Here are common use cases for the Twilio connector:
 
 This use case consists of a Mule application that will send a message to a given phone number, and then redact it.
 
-image:use-case-1-flow.png[Use case 1 flow]
+image:twilio-use-case-flow.png[Use case flow]
 
 . Create a new Mule application and add the following properties to the `mule-app.properties` file:
 +
