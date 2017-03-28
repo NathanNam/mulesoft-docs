@@ -63,13 +63,13 @@ Name |Name of the connector configuration.
 *Default:* `Twilio__Basic_Authentication` +
 *XML Parameter:* `name`
 |Connection: +
-Username |Your username to access twilio.com.
+Username |Your username (Account SID) to access Twilio API.
 
 *Type:* String +
 *Required:* Yes +
 *Default:* none +
 *XML Parameter:* `username`
-|Password |Your password to access twilio.com.
+|Password |Your password (Auth Token) to access Twilio API.
 
 *Type:* String +
 *Required:* Yes +
